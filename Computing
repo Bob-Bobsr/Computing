@@ -1,0 +1,17 @@
+print("Welcome to the space adventure choice game!")
+name = input("I can't remember your name....Whats your name again?")
+print"That's right! Hello",name
+print("Boom!!!! The spaceship violently shakes.")
+print"Bob: What was that",name
+while True:
+  d1a = input("Do you want to: /n a) Its probably nothing.b) Were all going to die. [a/b]? : ")
+ 
+  if d1a=="a": 
+   
+    print("Bob: I'm pretty sure the ship shaking isn't nothing!")
+    break
+    
+  elif d1a == "b":
+    
+    print("Bob: Shut up, were not going to die....Hopefully.")
+    break
